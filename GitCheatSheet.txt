@@ -1,0 +1,20 @@
+# GitHub Cheat Sheet
+"ls -a" um hidden ordner mit ls anzuzeigen
+"rm -rf .git" um hidden gitordner zu removen
+
+"git init" im target ordner
+
+"git add ." um diese Files für das committen zu adden
+"git commit -m "Generic Commit Message" " für das commiten der geaddeten Files
+"git remote add origin <URL DES REPOSITORIES>"
+
+
+Personal Access Token als Passwort im Terminal! (GitHub User Icon --> Settings --> Unten Developer Settings --> Personal Access Tokens)
+
+
+Wenn "There isn't anything to compare. Nothing to compare, branches are entirely different commit histories"
+
+git checkout master   
+git branch main master -f    
+git checkout main  
+git push origin main -f 
